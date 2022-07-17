@@ -41,7 +41,7 @@ class SideDrawwer extends StatelessWidget {
                                 border: Border.all(color: Colors.grey),
                               ),
                               child: Text(
-                                'Country = ${controller.cName}',
+                                'Country : ${controller.cName}',
                                 style: Poppins12R,
                               ),
                             ),
@@ -67,7 +67,7 @@ class SideDrawwer extends StatelessWidget {
                                 border: Border.all(color: Colors.grey),
                               ),
                               child: Text(
-                                'Country = ${controller.category}',
+                                'Category : ${controller.category}',
                                 style: Poppins12R,
                               ),
                             ),
